@@ -1,8 +1,10 @@
 import React from 'react'
 import furniture from './furniture.jpg'
-import images from './images.jpg'
-import Footer from './Footer'
+import image from './/Business_woman_at_home_in_her_bedroom_working_on_her_laptop._(51236863108).jpg'
+import smhome from './small-home-study-ideas.jpg'
+import image1 from './AdobeStock_132869900.jpeg'
 
+import Footer from './Footer'
 function Header() {
     return (
         <div className="home">
@@ -78,15 +80,73 @@ function Header() {
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsa ea animi quisquam fugit molestiae facilis fuga temporibus architecto accusantium quaerat quo vero iste, nesciunt nemo cupiditate perspiciatis non illum.</p>
 </div>
 
-<div className="image my-5">
-    <img src={furniture} height={'400px'} width={'300px'} alt="image1" />
-    <img src={images} height={'400px'} width={'300px'} alt="image2" />
+
 </div>
+<div className=" image">
+    <img className='img1' src={furniture} height={'500px'} width={'600px'} alt="image1" />
+    <img className='img2' src={image} height={'500px'} width={'600px'} alt="image2" />
+    <h1 className='container textimg'>Space to make your greatest impact.</h1>
+    <p className='container textimg my-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum in obcaecati voluptas aliquid maiores nemo minima laborum quam temporibus dolorem commodi iusto, amet nisi qui praesentium rem dicta eaque pariatur esse voluptate! Ex voluptatum excepturi tempora repellendus dignissimos eaque obcaecati, rerum labore unde voluptas nisi consequuntur, sit voluptatibus corporis porro.</p>
+    <button className='btn btn-outline-light btnimg' style={{color:'white'}}> Get Your Choice &rarr;</button>
 
 </div>
 
-<Footer/>
-        </div>
+<div className="container  mt-5">
+    <h1>We Provides All Facilites For Better Work Environment</h1>
+     <p className='my-4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quisquam officia voluptate, modi quidem vero dolores ad, repellendus est aperiam quod doloremque suscipit consectetur consequatur a, incidunt totam expedita corporis fugit! Aut fugit porro voluptatem dolores error assumenda tempore dolorem sapiente autem, at dolorum molestiae ad numquam debitis perspiciatis repellat quos architecto deleniti doloribus eos odio ut soluta neque corrupti. Ad quae nihil, laboriosam delectus architecto autem cum, officia perspiciatis culpa repudiandae earum odio aperiam itaque repellendus ullam dicta eum. Animi perferendis non voluptatem officiis nostrum eius ratione ea dolore distinctio ipsum aliquam tenetur similique corrupti facilis quas, explicabo ipsa.</p>
+      <div className="d-flex icon">
+     <h5 className='mt-2'>🏢</h5>
+     <h5 className='icon1 mt-2'>🛃</h5>
+      </div>
+      <div className="d-flex icon">
+      <strong className='mt-2'>Flexible Private Office</strong>
+      <div className="vertical"></div>
+      <strong className='startimg mt-2'>Fully Custom Space</strong>
+      </div>
+      <button className='btn' style={{color:"blue" , border:"1px solid blue" , position:"relative" , bottom:"30px"}}>Learn More &rarr;</button>
+ </div>
+
+<div className=" mt-5 imgages">
+<img className='smhome' src={smhome} alt="img" />
+
+<div className="smhome1 mt-5 cardimg">
+    <h1 className='container textcardimg'>🛄</h1>
+     <h3 className='container textcard'>Anything You Need</h3>
+     <p className='container textcard'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, rem?</p>
+</div>
+<div className="imagetxt">
+<img className='smhome2' src={image1} alt="" />
+</div>
+<div className="smhome3 mt-5 cardimg">
+    <h1 className='container textcardimg'>🛄</h1>
+     <h3 className='container textcard'>Anything You Need</h3>
+     <p className='container textcard'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, rem?</p>
+</div>
+<div className=" container ptext">
+<p className='container'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum magni delectus dignissimos repudiandae quam pariatur libero saepe inventore? Eveniet quasi, eum maiores praesentium, ratione minima id amet vel eligendi voluptas ipsa facere earum fuga blanditiis officiis tempora quos. Natus eius temporibus sunt quae totam a ullam deleniti dolore et, magni culpa eveniet obcaecati voluptates unde dolorum architecto maiores. Odio hic minima asperiores maiores culpa? Optio iusto, neque enim nisi est culpa veniam sequi, totam corrupti dolor sit incidunt pariatur sed beatae aut eius.</p>
+
+</div>
+
+
+
+      <div className="container d-flex icon2">
+     <h5 className='container icon5'>🏢</h5>
+     <h5 className='container icon4 mt-2'>🛃</h5>
+      </div>
+      <div className="container d-flex icon2">
+      <strong className='icon6'>Membership Package</strong>
+      <strong className='startimg icon7'>Dedicate Ofice Package</strong>
+      </div>
+      <button className='btn' style={{color:"blue" , border:"1px solid blue" , position:"relative" , bottom:"70px" ,left:"120px"}}>Learn More &rarr;</button>
+ </div>
+
+<div className="footer">
+
+    <Footer/>
+</div>
+ 
+
+</div>
 
 
 

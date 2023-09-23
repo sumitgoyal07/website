@@ -3,11 +3,11 @@ import React from 'react'
 function Footer() {
     return (
         <div>
-            <div className="container-fluid footer ">
+            <div className="container-fluid footer">
 
                 <div className="container d-flex flex-column">
 
-                <h1 className='mx-4'>TheWorkPlace</h1>
+                <h1 className='mx-4 mt-5'>TheWorkPlace</h1>
                 <p className='mx-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eligendi, tempora itaque deleniti ipsam sed animi obcaecati debitis dicta in magnam voluptatum quibusdam at, excepturi nam expedita, dolorem aperiam sapiente. Magnam rem ratione ex eum consectetur reiciendis obcaecati natus nihil vero quae! Nobis eius magni, voluptas quae officiis harum vel.</p>
 
                 <h1 className='mx-4'>QuickLines</h1>
